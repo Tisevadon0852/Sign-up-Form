@@ -1,0 +1,87 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+body {
+    line-height: 1.6;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background: #344a72;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+
+.signup-form {
+    background: #fff;
+    padding: 30px;
+}
+
+.heading {
+    text-align: center;
+}
+
+.heading p {
+    font-size: 1.2rem;
+    margin-bottom: 2rem;
+}
+
+.form-wrap {
+    margin: 0;
+}
+
+.form-wrap label {
+    display: block;
+    margin-bottom: .4rem;
+}
+
+.form-wrap input {
+    width: 100%;
+    height: 2rem;
+    border-radius: .3rem;
+    margin-bottom: .9rem;
+    border: 1px solid #ddd;
+}
+
+.form-wrap button {
+    width: 100%;
+    padding: 0.5rem;
+    background: #49c1a2;
+    color: #fff;
+    border: none;
+    border-radius: 5rem;
+    font-size: large;
+    margin-bottom: 2rem;
+}
+
+.form-wrap button:hover {
+    background: #008080;
+    cursor: pointer;
+}
+
+.policy {
+    text-align: center;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 2px #333 solid;
+    background: #49c1a2;
+    padding: 0.2rem;
+}
+
+.footer a {
+    color: #fff;
+}
